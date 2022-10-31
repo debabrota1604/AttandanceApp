@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dev.devapp_attendanceapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:name=".MainActivity_1_starting">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity_2_courses" />
+        <activity android:name=".MainActivity_3_individual_courses" />
+        <activity android:name=".ActivityStudentInformation" />
+        <activity android:name=".ActivityAttandanceTaking" />
+        <activity android:name=".Activity_AddCourse" />
+        <activity android:name=".Activity_RemoveCourse" />
+        <activity android:name=".Activity_AddStudent_NewEntryToDatabase" />
+        <activity android:name=".Activity_RemoveStudent_DeleteEntryFromDatabase" />
+        <activity android:name=".Activity_ASTC_" />
+        <activity android:name=".Activity_deregister_student" />
+        <activity android:name=".Activity_ShowRegister"></activity>
+    </application>
+
+</manifest>

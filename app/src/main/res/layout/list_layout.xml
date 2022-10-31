@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:background="#1496fa"
+    android:baselineAligned="true"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/list_layout_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="Sample ID"
+        android:layout_weight="1"
+        android:textAlignment="viewStart"
+        android:textSize="15sp"
+        android:padding="5dp" />
+
+    <TextView
+        android:id="@+id/list_layout_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sample Course"
+        android:layout_weight="1"
+        android:layout_marginLeft="10dp"
+        android:textAlignment="viewStart"
+        android:textSize="15sp"
+        android:padding="5dp" />
+
+    <TextView
+        android:id="@+id/list_layout_deptName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sample Department"
+        android:layout_weight="1"
+        android:layout_marginLeft="10dp"
+        android:textAlignment="viewStart"
+        android:padding="5dp"
+        android:textSize="15sp"/>
+
+</LinearLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:id="@+id/ll_attandance_layout"
+    android:background="#FFAB91"
+    android:baselineAligned="true"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/attandance_layout_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="Sample ID"
+        android:layout_weight="1"
+        android:textAlignment="viewStart"
+        android:textSize="15sp"
+        android:padding="5dp" />
+
+    <TextView
+        android:id="@+id/attandance_layout_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sample Student"
+        android:layout_weight="1"
+        android:layout_marginLeft="10dp"
+        android:textAlignment="viewStart"
+        android:textSize="15sp"
+        android:padding="5dp" />
+
+<!--    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginRight="10dp"
+        android:textColor="#FF3D00"
+        android:id="@+id/cb_attandance_layout_checkbox"/>-->
+</LinearLayout>
+
+
+

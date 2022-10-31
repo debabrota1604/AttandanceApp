@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "D:\\AndroidStudioProjects\\DevApp_AttendanceApp\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_main2.xml",
+        "source": "D:\\AndroidStudioProjects\\DevApp_AttendanceApp\\app\\src\\main\\res\\menu\\menu_main2.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\DevApp_AttendanceApp\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_main_activity.xml",
+        "source": "D:\\AndroidStudioProjects\\DevApp_AttendanceApp\\app\\src\\main\\res\\menu\\menu_main_activity.xml"
+    }
+]

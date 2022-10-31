@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dev.devapp_attendanceapp"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="23" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+        <activity android:name="com.example.dev.devapp_attendanceapp.MainActivity_1_starting" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.dev.devapp_attendanceapp.MainActivity_2_courses" />
+        <activity android:name="com.example.dev.devapp_attendanceapp.MainActivity_3_individual_courses" />
+        <activity android:name="com.example.dev.devapp_attendanceapp.ActivityStudentInformation" />
+        <activity android:name="com.example.dev.devapp_attendanceapp.ActivityAttandanceTaking" />
+        <activity android:name="com.example.dev.devapp_attendanceapp.Activity_AddCourse" />
+        <activity android:name="com.example.dev.devapp_attendanceapp.Activity_RemoveCourse" />
+        <activity android:name="com.example.dev.devapp_attendanceapp.Activity_AddStudent_NewEntryToDatabase" />
+        <activity android:name="com.example.dev.devapp_attendanceapp.Activity_RemoveStudent_DeleteEntryFromDatabase" />
+        <activity android:name="com.example.dev.devapp_attendanceapp.Activity_ASTC_" />
+        <activity android:name="com.example.dev.devapp_attendanceapp.Activity_deregister_student" />
+        <activity android:name="com.example.dev.devapp_attendanceapp.Activity_ShowRegister" />
+    </application>
+
+</manifest>
